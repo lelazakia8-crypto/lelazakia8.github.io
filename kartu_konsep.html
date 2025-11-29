@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kartu Konsep - Gelombang & Bunyi (SMA)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Kartu Konsep: Gelombang & Bunyi (SMA)</h1>
+    <div class="controls">
+      <input id="search" placeholder="Cari kata kunci (mis. resonansi)" />
+      <select id="topicFilter">
+        <option value="all">Semua Topik</option>
+        <option value="gelombang">Gelombang</option>
+        <option value="frekuensi">Frekuensi & Periode</option>
+        <option value="resonansi">Resonansi</option>
+        <option value="intensitas">Intensitas</option>
+        <option value="fft">FFT & Analisis</option>
+      </select>
+      <button id="shuffleBtn">Acak</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="instructions">
+      <p><strong>Petunjuk:</strong> Klik kartu untuk membalik (definisi di belakang). Gunakan filter atau cari untuk cepat menemukan konsep. Kartu berlevel SMA — ringkas & ilmiah.</p>
+    </section>
+
+    <section id="cardGrid" class="grid">
+      <!-- Kartu akan di-inject lewat JS -->
+    </section>
+
+    <nav class="pager">
+      <button id="prevPage">‹ Sebelumnya</button>
+      <span id="pageInfo">1 / 1</span>
+      <button id="nextPage">Berikut ›</button>
+    </nav>
+  </main>
+
+  <footer class="footer">
+    <small>Disusun untuk pembelajaran SMA — ringkas, ilmiah, dan praktis.</small>
+  </footer>
+
+  <script src="kartu_konsep.js"></script>
+</body>
+      <a href="menu.html" class="btn">← Kembali ke Menu utama</a>
+    </div>
+
